@@ -65,7 +65,7 @@ const Home = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-6 mb-md-4 col-sm-12">
-              <div className="offer-image-1 position-relative text-white" data-aos="fade-right">
+              <div className="offer-image-1 position-relative text-white" data-aos="flip-left">
                 <img src={Image1} alt="" />
                 <div className="position-absolute text">
                   <p className="mb-0 text-white">Natural!!</p>
@@ -74,7 +74,7 @@ const Home = () => {
               </div>
             </div>
             <div className="col-lg-6 mb-md-4 col-sm-12">
-              <div className="offer-image-2 position-relative" data-aos="fade-left">
+              <div className="offer-image-2 position-relative" data-aos="flip-right">
                 <img src={Image2} alt="" />
                 <div className="position-absolute text-1">
                   <p className="mb-0">Offer!!</p>
