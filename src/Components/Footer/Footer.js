@@ -36,7 +36,7 @@ const Footer = () => {
                 </ul>
               </div>
             </div>
-            <div class="col-md-4 col-12  footer-4 border-start border-end">
+            <div class="col-md-4 col-12  footer-4">
               <div class="logo-name d-flex align-items-center justify-content-center">
                 <img src={logo} alt="" class="logo-image" />
                 <Link class="navbar-brand ms-2 fs-2 heading fw-bold" to="/">
