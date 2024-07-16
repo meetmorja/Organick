@@ -1,0 +1,278 @@
+.about-bg-image {
+    background-image: url("../Image/About-Photo-1.png");
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+}
+
+
+.about-org-photo img {
+    padding: 100px 0px;
+}
+
+.agri {
+    max-width: 226px;
+}
+
+.ex-btn {
+    min-width: 220px;
+    height: 79px;
+    border-radius: 16px;
+    font-size: 20px;
+    color: #fff;
+    transition: transform 0.2s ease-in-out;
+}
+
+.ex-btn:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transform: scale(1.05);
+}
+
+.info-org {
+    max-width: 530px;
+}
+
+.about-title h3,
+.spe-title h3,
+.team-heading h3,
+.about-offer-title h3 {
+    font-family: "Yellowtail";
+    color: #68A47F;
+    font-size: 36px;
+}
+
+.about-title h1,
+.spe-title h1,
+.team-heading h1 {
+    max-width: 500px;
+    font-weight: 800;
+    color: #274C5B;
+    font-size: 50px;
+}
+
+.spe-title h1 {
+    max-width: 600px;
+}
+
+.all-about-org {
+    padding: 100px 0px;
+}
+
+.natural-btn {
+    width: 290px;
+    height: 60px;
+    padding: 17px 50px;
+    border-radius: 49px;
+    background-color: #ECECEC;
+}
+
+.natural-info {
+    max-width: 360px;
+}
+
+.Our-speciality {
+    background-color: #F9F8F8;
+    padding: 100px 0px;
+}
+
+.o-place {
+    padding: 100px 0px;
+}
+
+.policy-card {
+    width: 257px;
+    height: 335px;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 8px;
+    transition: box-shadow 0.5s ease;
+}
+
+.policy-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.policy-icon {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.team {
+    padding: 100px 0px;
+}
+
+.team-heading h1 {
+    max-width: 100%;
+}
+
+.team-info {
+    max-width: 715px;
+    margin: 0 auto;
+}
+
+.expert {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.expert:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
+
+.expert-image img {
+    width: 416px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.post h4 {
+    font-family: "Yellowtail";
+    color: #68A47F;
+}
+
+.main-expert {
+    width: 416px;
+    padding: 20px;
+    background: #F9F8F8;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.about-offer {
+    background-color: #274C5B;
+    padding: 100px 0px;
+}
+
+.spicy img {
+    width: 100%;
+    height: 300px;
+}
+
+.subscribe {
+    padding: 100px 0px;
+}
+
+@media (max-width:990px) {
+    .about-title h1 {
+        font-size: 35px;
+    }
+
+    .info-org {
+        font-size: 20px;
+    }
+
+    .about-org-photo img {
+        padding: 50px 0px 30px;
+    }
+
+    .natural-info {
+        max-width: 100%;
+    }
+
+    .all-about-org {
+        padding: 0px;
+    }
+
+    .info-org {
+        max-width: 696px;
+    }
+
+    .flow {
+        flex-flow: column-reverse;
+    }
+
+    .natural-image {
+        margin-bottom: 50px;
+    }
+
+    .spe-title h1 {
+        font-size: 30px;
+    }
+
+    .policy-card {
+        margin-bottom: 30px !important;
+        margin: 0 auto;
+    }
+
+    .expert-image img,
+    .main-expert {
+        width: 100%;
+    }
+
+    .policy-card {
+        width: 100%;
+    }
+
+    .about-bg-image {
+        background-position: center;
+    }
+}
+
+@media (max-width:576px) {
+    .all-about-org {
+        padding: 25px;
+    }
+
+    .center {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .expert-image img,
+    .main-expert {
+        width: 100%;
+    }
+
+    .agri {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .choose {
+        text-align: center;
+    }
+
+    .natural-btn {
+        margin: 0 auto;
+    }
+
+    .natural-info {
+        margin-left: 0 !important;
+    }
+
+    .natural-image img {
+        width: 100%;
+    }
+
+    .sec-btn {
+        display: flex;
+        justify-content: center;
+    }
+
+    .Our-speciality {
+        padding: 40px 0px;
+    }
+
+    .about-bg-image {
+        background-position: center;
+    }
+}
+
+@media (max-width:320px) {
+    .natural-btn {
+        width: 248px;
+        padding: 17px 34px;
+    }
+
+    .spe-title h1 {
+        font-size: 30px;
+    }
+
+    .about-bg-image {
+        background-position: center;
+    }
+
+}

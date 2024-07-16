@@ -1,0 +1,29 @@
+.blog-bg-image img {
+    width: 100%;
+}
+
+.blog-information {
+    padding: 100px 0px;
+}
+
+.leaf-page {
+    margin-bottom: 200px;
+}
+
+.leaf {
+    position: relative;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.leaf:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+}
+
+@media (max-width:991px) {
+    .blog-information {
+        padding: 100px 0px 0px;
+    }
+}

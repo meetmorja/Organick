@@ -1,0 +1,48 @@
+.changelog img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.webflow {
+    width: 705px;
+    height: 216px;
+    padding: 26px 41px 26px 41px !important;
+    border-radius: 30px;
+    margin: 0 auto !important;
+}
+
+.organic-webflow {
+    padding: 100px 0px 0px;
+}
+
+@media (max-width:576px) {
+    .webflow {
+        width: 100%;
+        height: auto;
+    }
+
+    .web-image img {
+        width: 100%;
+    }
+}
+
+@media (max-width:320px) {
+
+    .organic-webflow,
+    .webflow,
+    .web-info {
+        display: block !important;
+    }
+    .web-info h1, p{
+        margin-top: 30px;
+        margin-left: 0 !important;
+        text-align: center;
+    }
+    .web-image img {
+        width: auto;
+        margin: 0 auto !important;
+        display: flex;
+        justify-content: center;
+    }
+}

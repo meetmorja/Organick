@@ -1,0 +1,60 @@
+.Services-bg-image img,
+.organic-main-image img {
+    width: 100%;
+}
+
+.ser-info,
+.orgainc-title h1 {
+    max-width: 500px;
+    margin: 0 auto;
+    color: #274C5B;
+    font-weight: 700;
+}
+
+.orgainc-title {
+    margin: 0 auto;
+}
+
+.services-info {
+    padding: 150px 0px;
+}
+
+.services-title {
+    padding: 0px 0px 50px;
+}
+
+.services-title h3,
+.orgainc-title h3 {
+    font-family: "Yellowtail";
+    font-size: 36px;
+    color: #68A47F;
+}
+
+.dry-fruties img {
+    width: 100%;
+}
+
+.orgainc-title p {
+    width: 600px;
+}
+
+.orgainc-title {
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 111;
+}
+
+@media (max-width:991px) {
+
+    .organic-main-image img {
+        width: 100%;
+    }
+}
+@media (max-width:576px) {
+
+   .organic-only{
+    display: none;
+   }
+
+}

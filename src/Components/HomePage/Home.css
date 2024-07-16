@@ -1,0 +1,648 @@
+.bg-image {
+    background-image: url("../Image/Image.png");
+    width: 100%;
+    height: 898px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-image::after {
+    position: absolute;
+    content: "";
+    background-image: url("../Image/Background.png");
+    width: 100%;
+    height: 898px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 0px;
+    left: 0px;
+}
+
+.natural {
+    padding-bottom: 100px;
+}
+
+.title {
+    padding: 300px 0px 200px;
+}
+
+.title h2 {
+    font-weight: 800;
+    font-family: "Roboto", sans-serif;
+    font-size: 70px;
+    max-width: 500px;
+    color: #274C5B;
+}
+
+.offers {
+    padding-bottom: 100px;
+}
+
+.offer-image-1 img {
+    width: 100%;
+    height: 367px;
+}
+
+.offer-image-2 img {
+    width: 100%;
+    height: 367px;
+}
+
+.text {
+    top: 150px;
+    left: 80px;
+}
+
+.text p,
+.text-1 p,
+.about-us h6,
+.title h5,
+.categories-title h2,
+.test-title,
+.offers-title h3,
+.eco-title h2,
+.news-title h3 {
+    font-family: "Yellowtail";
+    font-size: 36px;
+    color: #68A47F;
+}
+
+.text h2 {
+    width: 200px;
+    font-weight: 800;
+}
+
+.text-1 {
+    top: 150px;
+    left: 80px;
+}
+
+.text-1 h2 {
+    width: 230px;
+    font-weight: 800;
+}
+
+.explore {
+    background-color: #EFD372;
+    min-width: 220px;
+    height: 79px;
+    border-radius: 16px;
+    font-size: 20px;
+}
+
+.side-icon {
+    background-color: #335B6B;
+    padding: 3px;
+    height: 19px;
+    width: 19px;
+}
+
+.farmers {
+    padding: 150px 0px;
+}
+
+.f-image img {
+    width: 900px;
+    object-fit: contain;
+    padding-top: 100px;
+}
+
+.about-us {
+    padding: 100px;
+}
+
+.about-us h5 {
+    font-family: "Roboto";
+    font-size: 40px;
+    font-weight: 800;
+    color: #274C5B;
+
+}
+
+.about-info {
+    font-size: 18px;
+    font-family: "Roboto";
+}
+
+.shop {
+    width: 220px;
+    height: 79px;
+    padding: 28px 39px 28px 39px;
+    border-radius: 16px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.shop:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transform: scale(1.05);
+}
+
+.categories {
+    padding: 100px 0px;
+}
+
+.our {
+    font-weight: 700;
+    color: #274C5B;
+}
+
+.product {
+    background-color: #274C5B;
+    width: 220px;
+    height: 79px;
+    padding: 28px 39px 28px 39px;
+    border-radius: 16px;
+}
+
+.testmonials {
+    background-image: url("../Image/testmonialbg.jpg");
+    width: 100%;
+    background-size: cover;
+    height: 1267px;
+}
+
+.test-heading {
+    padding-top: 100px;
+}
+
+.test-heading h1,
+.eco-title h1 {
+    color: #274C5B;
+    font-family: "Roboto";
+    font-weight: 800;
+}
+
+.slick-arrow {
+    display: none !important;
+}
+
+.rating-image {
+    width: 100%;
+}
+
+.review p {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.customer-name h2,
+.percentage {
+    color: #274C5B;
+    font-size: 25px;
+}
+
+.Customer {
+    padding: 0px 0px 300px;
+}
+
+.c-review {
+    height: 189px;
+    width: 189px;
+}
+
+.fix {
+    mix-blend-mode: darken;
+}
+.cookies{
+    transition: 0.4s all linear;
+}
+.cookies:hover{
+    background-color: #EFD372 !important;
+}
+.offers-section {
+    padding: 150px 0px;
+    background-color: #274C5B;
+}
+
+.offers-title h1 {
+    font-family: "Roboto";
+}
+
+.view {
+    color: #274C5B;
+    width: 235px;
+}
+
+.side {
+    background-color: #274C5B;
+}
+
+.ec-image {
+    background-image: url("../Image/Eco-Fri.png");
+    width: 100%;
+    height: 931px;
+    background-size: cover;
+    background-position: center;
+}
+
+.eco-info {
+    padding: 50px !important;
+    top: 15%;
+    right: 18%;
+}
+
+.eco-friendly {
+    overflow: hidden;
+}
+
+.foods {
+    background-color: #F1F8F4;
+    padding: 100px 0px;
+}
+
+.organic-btns {
+    top: 39%;
+    left: 25%;
+}
+
+.organic-btns button {
+    width: 220px;
+    height: 80px;
+    border-radius: 20px;
+    border: none;
+    color: #274C5B;
+    font-weight: 500;
+}
+
+.f-image-1 {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease-out;
+}
+
+.f-image-1:hover {
+    transform: scale(1.05);
+}
+
+.f-image-1 img {
+    width: 100%;
+}
+
+.news {
+    padding: 100px 0px 180px;
+}
+
+.News-btn {
+    width: 220px;
+    height: 79px;
+    padding: 28px 39px 28px 39px;
+    border-radius: 16px;
+    border: 1x solid black;
+}
+
+.leaf-card {
+    width: 580px;
+    top: 55%;
+    left: 4%;
+}
+
+.leaf img {
+    width: 100%;
+}
+
+.space {
+    padding: 30px;
+}
+
+.leaf-heading h4 {
+    font-weight: 700;
+}
+
+.leaf-heading p {
+    font-size: 18px;
+    width: 444px;
+}
+
+.date {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: #fff;
+    top: 5%;
+    left: 4%;
+}
+
+
+.sub_p {
+    padding: 100px 60px;
+}
+
+.bg-sub {
+    background-image: url('../Image/Contect-us.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+}
+
+.email {
+    width: 375px;
+    height: 79px;
+    padding: 28px 39px 28px 39px;
+}
+
+.subscribe-btn {
+    width: 215px;
+    height: 79px;
+    padding: 28px 39px 28px 39px;
+    border-radius: 16px;
+}
+
+
+.sub-title h1 {
+    width: 280px;
+}
+
+
+
+@media (max-width:1300px) {
+    .bg-image {
+        background-position: center;
+
+    }
+
+    .bg-image::after {
+        background-position: left;
+        background-size: cover;
+    }
+
+    .testmonials {
+        background-position: center;
+    }
+}
+
+@media (max-width:1199px) {
+    .ec-image {
+        width: 900px !important;
+    }
+}
+
+@media (max-width:991px) {
+    .title h2 {
+        font-size: 60px;
+    }
+
+    .about-us {
+        padding: 0px;
+        text-align: center;
+    }
+
+    .bg-sub {
+        background-size: cover;
+        background-position: center;
+    }
+
+    .sub-title h1 {
+        font-size: 40px;
+    }
+
+    .set {
+        width: 100%;
+    }
+
+    .sub_p {
+        justify-content: center !important;
+    }
+
+    .test-heading,
+    .Customer {
+        padding: 0px;
+    }
+
+    .testmonials {
+        background-image: none;
+        height: 950px;
+    }
+
+    .ec-image {
+        width: 835px;
+    }
+
+    .eco-info {
+        top: 20%;
+        right: 7%;
+    }
+
+    .organic-btns {
+        top: 45%;
+        left: 35%;
+    }
+
+    .leaf img {
+        width: auto;
+        margin-bottom: 200px;
+    }
+
+    .leaf-card {
+        top: 45%;
+        left: 11%;
+    }
+
+    .subscribe {
+        padding: 40px 0px 50px;
+    }
+
+    .bg-sub img {
+        height: 300px;
+    }
+
+    .email {
+        width: auto;
+        margin-top: 10px;
+    }
+
+    .sub-title h1 {
+        text-align: center;
+    }
+
+    .news {
+        padding: 100px 0px 0px;
+    }
+}
+
+@media (max-width:765px) {
+    .bg-image {
+        background-position: center;
+        height: 100%;
+    }
+
+    .bg-image::after {
+        display: none;
+    }
+
+    .title {
+        padding: 200px 0px;
+    }
+
+    .title h2 {
+        font-size: 50px;
+    }
+
+    .offer-image-1 img,
+    .offer-image-2 img {
+        width: 100%;
+        object-fit: contain;
+        height: 200px;
+    }
+
+    .offer-image-1 {
+        margin-bottom: 20px;
+    }
+
+    .natural {
+        padding-bottom: 50px;
+    }
+
+    .categories {
+        padding: 0px;
+    }
+
+    .text,
+    .text-1 {
+        top: 50px;
+        left: 40px;
+    }
+
+    .f-image img {
+        padding-top: 0px;
+    }
+
+    .testmonials {
+        background-image: none;
+        height: 100%;
+    }
+
+    .offers-section {
+        padding: 50px 0px;
+    }
+
+    .offers-title {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .ec-image {
+        background-image: none;
+    }
+
+    .eco-title {
+        width: 250px !important;
+    }
+
+    .eco-info {
+        padding: 50px !important;
+        top: 5% !important;
+        right: 8% !important;
+    }
+
+    .leaf img {
+        width: 100%;
+        margin-bottom: 360px;
+    }
+
+    .leaf-card {
+        top: 25%;
+        left: 5%;
+        width: 330px;
+    }
+
+    .leaf-heading p {
+        width: 265px;
+    }
+
+    .center {
+        text-align: center;
+    }
+
+    .organic-btns {
+        top: 45%;
+        left: 20%;
+    }
+
+    .bg-sub img {
+        height: 300px;
+    }
+
+    .subscribe {
+        padding: 10px 0px 50px;
+    }
+
+    .review p {
+        width: auto;
+        margin: 0 auto;
+    }
+
+    .email {
+        width: 220px;
+        height: 79px;
+        padding: 28px 39px 28px 39px;
+    }
+
+}
+
+@media (max-width:360px) {
+    .leaf-card {
+        top: 25%;
+        left: 1%;
+        width: 330px;
+    }
+
+    .review p {
+        width: auto;
+    }
+
+    .eco-info {
+        padding: 50px !important;
+        top: 5% !important;
+        right: 8% !important;
+    }
+}
+
+@media (max-width:320px) {
+    .eco-info {
+        top: 5%;
+        right: 0% !important;
+    }
+
+    .food {
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    .test-title {
+        padding: 50px 0px 30px;
+    }
+
+    .leaf-card {
+        top: 25%;
+        left: 5%;
+        width: 260px;
+    }
+
+    .leaf-heading p {
+        width: 190px;
+        margin: 10px 0px 20px;
+    }
+
+    .leaf img {
+        width: 100%;
+        margin-bottom: 480px;
+    }
+
+    .read {
+        margin-left: -20px;
+        width: 210px;
+    }
+
+    .about-us h6 {
+        padding: 30px 0px;
+    }
+
+    .organic-btns {
+        top: 40%;
+        left: 15%;
+    }
+
+    .sub-title h1 {
+        width: auto;
+    }
+}

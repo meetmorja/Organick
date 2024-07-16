@@ -1,0 +1,82 @@
+.research-bg-image img{
+    width: 100%;
+    height: 898px;
+}
+
+.vitamin {
+    padding: 200px 200px 200px;
+}
+
+.research-info {
+    top: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.rules {
+    width: 936px;
+    height: 237px;
+    padding: 69px 59px 69px 59px;
+    border-radius: 30px;
+    background-color: #F1EDEA;
+}
+
+.listed li {
+    list-style-type: none;
+}
+
+.benefits {
+    font-size: 32px !important;
+}
+
+@media (max-width:991px) {
+    .research-bg-image {
+        background-position: center;
+    }
+
+    .research-info {
+        top: -100px;
+        left: 7%;
+    }
+
+    .leaf-page {
+        margin-bottom: 65px;
+    }
+}
+
+@media (max-width:576px) {
+    .research-bg-image {
+        background-position: center;
+        background-size: cover;
+        height: 300px;
+    }
+
+    .research-info {
+        top: -100px;
+        left: 7%;
+    }
+
+    .vitamin {
+        padding: 400px 0px 00px !important;
+    }
+
+    .raspberry-title {
+        width: 100%;
+        padding: 40px !important;
+    }
+
+    .raspberry-title h2 {
+        font-size: 30px;
+        width: 100%;
+    }
+
+    .rules {
+        width: 100%;
+        height: auto;
+    }
+
+    .research-info {
+        top: -100px;
+        left: -1%;
+    }
+}

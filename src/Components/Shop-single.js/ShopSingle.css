@@ -1,0 +1,116 @@
+.shop_single_bg_image img {
+    width: 100%;
+}
+
+.Health-Pistachios{
+    padding: 100px 0px;
+}
+.health-image img{
+    width: 100%;
+    height: 470px;
+}
+.dollar {
+    text-decoration: line-through;
+}
+.health-para {
+    width: 525px;
+}
+.related-title h1{
+    color: #274C5B;
+}
+.cart-number {
+    width: 134px;
+    height: 80px;
+    padding: 30px;
+    border-radius: 16px;
+    border: 2px;
+    border: 2px solid #274C5B;
+}
+.health-info {
+    padding: 50px 0px;
+}
+.product-two-btn {
+    padding: 60px 0px 20px;
+}
+
+.product-btn-1,
+.product-btn-2 {
+    background-color: #274C5B;
+    height: 50px;
+    width: 250px;
+}
+
+.product-btn-2 {
+    background-color: #EFF6F1;
+}
+
+.btn-info {
+    margin: 0 auto;
+    max-width: 1035px;
+}
+.set-position{
+    top: 0px;
+    left: 0px;
+}
+@media (max-width:991px) {
+    .health-image img {
+        width: 100%;
+    }
+
+    .health-info {
+        padding: 50px;
+    }
+
+    .shop_single_bg_image img {
+        width: 100%;
+    }
+
+    .product-two-btn {
+        padding: 10px 0px 20px;
+    }
+}
+
+@media (max-width:765px) {
+    .health-para {
+        width: 100%;
+    }
+
+    .shop_single_bg_image img {
+        width: 100%;
+    }
+
+    .add-cart {
+        text-align: center;
+    }
+
+    .cart-number {
+        margin: 0 auto !important;
+    }
+
+    .add,.add-to {
+        margin: 20px 0px;
+    }
+    /* .Quantity{
+        display: block !important;
+    }
+    .add{
+        text-align: center;
+    } */
+}
+
+@media (max-width:320px) {
+    .shop_single_bg_image img {
+        width: 100%;
+    }
+
+    .add-to{
+        background-color: #274C5B;
+        width: 100%;
+        height: 79px;
+        /* padding: 28px 39px 28px 39px; */
+        border-radius: 16px;
+        margin-top: 10px;
+        margin-left: 0px !important;
+    }
+   
+}

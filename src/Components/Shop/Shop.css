@@ -1,0 +1,15 @@
+.shop-bg-image img {
+    width: 100%;
+}
+
+@media (max-width:991px) {
+    .shop-bg-image img {
+        width: 100%;
+    }
+}
+
+@media (max-width:765px) {
+    .shop-bg-image{
+        margin-bottom: 50px;
+    }
+}

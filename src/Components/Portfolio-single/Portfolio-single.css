@@ -1,0 +1,145 @@
+.Raspberry img{
+    width: 100%;
+    height: 898px;
+}
+
+.raspberry-title {
+    width: 980px;
+    padding: 50px !important;
+    background-color: #fff;
+}
+
+.raspberry-title h2 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.Raspberry-date {
+    background-color: #FAFAFA;
+}
+
+.Raspberry-date {
+    padding: 61px !important;
+}
+
+.raspberry-title h2,
+.farm-title h2 {
+    color: #274C5B;
+}
+
+.raspberry-title p {
+    width: 626px;
+}
+
+.Raspberry-info {
+    top: 929px;
+    left: 265px;
+    z-index: 111;
+}
+
+.carrot-image img {
+    width: 100%;
+}
+
+.About-farm {
+    padding: 200px 500px 0px;
+}
+
+@media (max-width:1280px) {
+    .About-farm {
+        padding: 300px 200px 0px !important;
+    }
+
+    .Raspberry-info {
+        top: 929px;
+        left: 70px;
+        z-index: 111;
+    }
+}
+
+@media (max-width:991px) {
+    .raspberry-title {
+        width: 695px;
+    }
+
+    .Raspberry {
+        background-position: center;
+    }
+
+    .Raspberry-info {
+        top: 929px;
+        left: 54px;
+        z-index: 111;
+    }
+
+    .About-farm {
+        padding: 500px 0px 100px;
+    }
+
+    .farm-title img {
+        width: 100%;
+    }
+}
+
+@media (max-width:576px) {
+    .raspberry-title p {
+        width: 226px;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .raspberry-title h2 {
+        width: 200px;
+    }
+
+    .raspberry-title {
+        width: 335px;
+    }
+
+    .Raspberry-info {
+        top: 250px;
+        left: 0px;
+        z-index: 111;
+    }
+
+    .About-farm {
+        padding: 580px 0px 100px !important;
+    }
+
+    .Raspberry {
+        height: 300px;
+    }
+}
+
+@media (max-width:320px) {
+    .raspberry-title p {
+        width: 226px;
+    }
+
+    .raspberry-title h2 {
+        width: 200px;
+    }
+
+    .raspberry-title {
+        width: 298px;
+        padding: 30px !important;
+    }
+
+    .Raspberry-date {
+        padding: 31px !important;
+    }
+
+    .Raspberry {
+        background-position: center;
+    }
+
+    .Raspberry-info {
+        top: 929px;
+        left: 0px;
+        z-index: 111;
+    }
+
+    .About-farm {
+        padding: 550px 0px 50px !important;
+    }
+}

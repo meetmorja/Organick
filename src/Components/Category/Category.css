@@ -1,0 +1,60 @@
+.card {
+    background-color: #F9F8F8;
+}
+
+.span-border {
+    border-bottom: 1px solid black;
+}
+
+.c-title {
+    background-color: #274C5B;
+    width: fit-content;
+    color: #fff;
+}
+
+.card-hover {
+    transition: transform 0.2s ease-in-out;
+}
+
+.card-hover:hover {
+    transform: scale(1.05);
+}
+
+.fix {
+    height: 350px;
+    object-fit: contain;
+}
+
+.heart-icon {
+    font-size: 35px;
+    opacity: 0;
+    transition: 0.4s all linear !important;
+}
+
+.add-cart-icon {
+    font-size: 40px;
+    z-index: 111;
+    opacity: 0;
+    transition: 0.4s all linear !important;
+}
+
+.h-c_icons {
+    top: 10px;
+    left: 270px;
+    z-index: 111;
+}
+
+.add-hover:hover .heart-icon {
+    opacity: 1;
+    color: black;
+}
+
+.add-hover:hover .add-cart-icon {
+    opacity: 1;
+    color: black;
+}
+
+.heart-icon-red {
+    color: red !important;
+    overflow: hidden;
+}

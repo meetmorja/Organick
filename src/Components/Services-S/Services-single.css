@@ -1,0 +1,136 @@
+.ser-single-bg-image img,
+.service-store-photo img {
+    width: 100%;
+}
+
+.service-store {
+    padding: 150px 0px 0px;
+}
+
+.store-info {
+    padding: 50px 200px;
+}
+
+.store-title h1,
+.farm-title h1 {
+    color: #274C5B;
+    font-weight: 700;
+}
+
+.store-title p {
+    width: 800px;
+}
+
+.for-orgainic {
+    width: 537px;
+    height: 252px;
+    padding: 63px 45px 63px 45px;
+    border-radius: 20px;
+    background-color: #F9F8F8;
+}
+
+.why-organic {
+    padding: 46px 0px 0px;
+}
+
+.store-image-2 img {
+    height: 252px;
+}
+
+.more-space {
+    padding: 20px 0px !important;
+}
+
+.support-btn button {
+    width: 390PX;
+    height: 99px;
+    padding: 15px 53px 15px 17px;
+    gap: 10px;
+    border-radius: 100px;
+}
+
+.sup-btn-1 p {
+    width: 69px;
+    height: 69px;
+    border-radius: 50%;
+    background-color: #7EB693;
+}
+
+.sup-btn-1 p {
+    top: 15%;
+    left: 4%;
+}
+
+.sup-btn-2 p {
+    width: 69px;
+    height: 69px;
+    border-radius: 50%;
+    background-color: #7EB693;
+}
+
+.sup-btn-2 p {
+    top: 15%;
+    left: 7%;
+    /* z-index: 111; */
+}
+
+@media (max-width:991px) {
+    .store-info {
+        padding: 0px;
+    }
+
+    .store-title p,
+    .for-orgainic {
+        width: 100%;
+    }
+
+    .service-store-photo img {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .about-organic-store img {
+        width: 100%;
+        height: auto;
+    }
+
+    .support-btn {
+        justify-content: center;
+    }
+
+    .sup-btn-1 {
+        margin-bottom: 20px;
+    }
+
+    .farm-title {
+        margin-top: 30px;
+    }
+
+    .service-store {
+        padding: 20px 0px;
+    }
+}
+
+@media (max-width:765px) {
+    .support-btn {
+        /* justify-content: center; */
+        flex-wrap: wrap;
+    }
+
+    .support-btn button {
+        width: 280px;
+        padding: 0px;
+    }
+
+    .sup-btn-1 p,
+    .sup-btn-2 p {
+        width: 50px;
+        height: 50px;
+        top: 25%;
+        left: 5%;
+    }
+
+    .sup-btn-2 p{
+        left: 8%;
+    }
+}
