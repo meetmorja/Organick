@@ -79,7 +79,7 @@ const About = () => {
       <div className="Our-speciality">
         <div className="container">
           <div className="row o-place flow" >
-            <div className="col-lg-6 col-12" data-aos="fade-up-right">
+            <div className="col-lg-6 col-12" data-aos="flip-up">
               <div className="spe-title">
                 <h3 className="choose">Why Choose us?</h3>
                 <h1 className="choose">
@@ -111,7 +111,7 @@ const About = () => {
               </div>
             </div>
             <div className="col-lg-6 col-12">
-              <div className="natural-image" data-aos="fade-up-left">
+              <div className="natural-image" data-aos="flip-down">
                 <img src={Image5} alt="" />
               </div>
             </div>

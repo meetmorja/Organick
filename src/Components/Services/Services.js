@@ -31,12 +31,12 @@ const Services = () => {
             <div className="service-information">
                 <div className="container">
                     <div className="services-info">
-                        <div className="services-title" data-aos="zoom-in" data-aos-duration="1000">
+                        <div className="services-title" data-aos="zoom-out-up" data-aos-duration="1000">
                             <h3 className='text-center'>What we Grow</h3>
                             <h1 className='text-center ser-info fw-bold'>Better Agriculture for Better Future</h1>
                         </div>
                         <div className="row">
-                            <div className="col-lg-4" data-aos="fade-right" data-aos-duration="1000">
+                            <div className="col-lg-4" data-aos="zoom-out-down" data-aos-duration="1000">
                                 <div className="ser-product text-lg-end">
                                     <img src={Image2} alt="" />
                                     <h4>Dairy Products</h4>
