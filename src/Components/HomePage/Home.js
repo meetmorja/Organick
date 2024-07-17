@@ -234,11 +234,7 @@ const Home = () => {
                   </div>
                 </div>
               ))}
-              {/* {filteredProducts.map((product) => (
-                <div className="col-lg-3 col-md-6 mb-5 position-relative add-hover">
-                  <Category product={product} />
-                </div>
-              ))} */}
+        
             </div>
           </div>
         </div>
