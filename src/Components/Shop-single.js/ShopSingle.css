@@ -2,22 +2,27 @@
     width: 100%;
 }
 
-.Health-Pistachios{
+.Health-Pistachios {
     padding: 100px 0px;
 }
-.health-image img{
+
+.health-image img {
     width: 100%;
     height: 470px;
 }
+
 .dollar {
     text-decoration: line-through;
 }
+
 .health-para {
     width: 525px;
 }
-.related-title h1{
+
+.related-title h1 {
     color: #274C5B;
 }
+
 .cart-number {
     width: 134px;
     height: 80px;
@@ -26,9 +31,11 @@
     border: 2px;
     border: 2px solid #274C5B;
 }
+
 .health-info {
     padding: 50px 0px;
 }
+
 .product-two-btn {
     padding: 60px 0px 20px;
 }
@@ -48,10 +55,12 @@
     margin: 0 auto;
     max-width: 1035px;
 }
-.set-position{
+
+.set-position {
     top: 0px;
     left: 0px;
 }
+
 @media (max-width:991px) {
     .health-image img {
         width: 100%;
@@ -87,9 +96,15 @@
         margin: 0 auto !important;
     }
 
-    .add,.add-to {
+    .add,
+    .add-to {
         margin: 20px 0px;
     }
+
+    .shop_single_bg_image{
+        margin-top: 100px !important;
+    }
+
     /* .Quantity{
         display: block !important;
     }
@@ -103,7 +118,7 @@
         width: 100%;
     }
 
-    .add-to{
+    .add-to {
         background-color: #274C5B;
         width: 100%;
         height: 79px;
@@ -112,5 +127,5 @@
         margin-top: 10px;
         margin-left: 0px !important;
     }
-   
+
 }

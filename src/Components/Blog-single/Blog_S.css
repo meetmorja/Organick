@@ -1,4 +1,4 @@
-.research-bg-image img{
+.research-bg-image img {
     width: 100%;
     height: 898px;
 }
@@ -77,6 +77,10 @@
 
     .research-info {
         top: -100px;
-        left: -1%;
+        left: 49%;
+    }
+
+    .m-top{
+        margin-top: 230px;
     }
 }

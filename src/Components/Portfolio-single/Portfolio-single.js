@@ -25,7 +25,7 @@ const Portfolio_single = () => {
   return (
     <>
       <div className="Raspberry">
-        <div className="Raspberry position-relative">
+        <div className="Raspberry position-relative margin">
           <img src={portfolio.product_photo} alt="" />
         </div>
         <div className="Raspberry-info position-absolute">

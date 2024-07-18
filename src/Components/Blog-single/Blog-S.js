@@ -52,7 +52,7 @@ const Blog_S = () => {
             <div className="About-farm vitamin">
                 <div className="container">
                     <div className="farm-title mt-5">
-                        <p className='mb-4'>Uniquely matrix economically sound value through cooperative technology. Competently parallel task fully researched data and enterprise process improvements. Collaboratively expedite quality manufactured products via client-focused results quickly communicate enabled technology and turnkey leadership skills. Uniquely enable accurate supply chains rather than friction technology.</p>
+                        <p className='mb-4 m-top'>Uniquely matrix economically sound value through cooperative technology. Competently parallel task fully researched data and enterprise process improvements. Collaboratively expedite quality manufactured products via client-focused results quickly communicate enabled technology and turnkey leadership skills. Uniquely enable accurate supply chains rather than friction technology.</p>
                     </div>
                     <div className="how-to-farm">
                         <div className="farm-title">

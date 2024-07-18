@@ -56,5 +56,7 @@
    .organic-only{
     display: none;
    }
-
+   .Services-bg-image{
+    margin-top: 100px;
+   }
 }

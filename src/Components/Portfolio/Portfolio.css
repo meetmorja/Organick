@@ -4,9 +4,11 @@
     object-fit: cover;
     border-radius: 16px;
 }
-.port-bg-image img{
+
+.port-bg-image img {
     width: 100%;
 }
+
 .vegetable-product {
     padding: 100px 0px;
 }
@@ -28,4 +30,10 @@
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     background-color: #f8f9fa;
     transform: translateY(-5px);
+}
+
+@media (max-width:765px) {
+    .port-bg-image img {
+        margin-top: 100px;
+    }
 }

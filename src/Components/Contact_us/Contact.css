@@ -126,17 +126,27 @@
         width: 100%;
     }
 }
-
-@media (max-width:320px) {
-
-    .contact-from-Email,
-    .contact-from-Number {
-        width: 290px;
-        height: auto;
-    }
-}
-
 @media (max-width:576px) {
+    .contact-leaf {
+        background-position: center;
+        width: 100%;
+    }
+
+    .our-farms {
+        top: 15%;
+        left: 8.5%;
+        width: 280px;
+        height: 550px;
+    }
+
+    .lo-name p {
+        width: 100%;
+    }
+
+    .contact-bg-image {
+        margin-top: 100px;
+    }
+
     .contact-leaf {
         background-position: center;
         width: 100%;
@@ -155,29 +165,17 @@
     }
 }
 
-@media (max-width:576px) {
-    .contact-leaf {
-        background-position: center;
-        width: 100%;
-    }
-
-    .our-farms {
-        top: 15%;
-        left: 8.5%;
-        width: 280px;
-        height: 550px;
-    }
-
-    .lo-name p {
-        width: 100%;
-    }
-}
-
 @media (max-width:320px) {
     .our-farms {
         top: 15%;
         left: 2.5%;
         width: 280px;
         height: 550px;
+    }
+
+    .contact-from-Email,
+    .contact-from-Number {
+        width: 290px;
+        height: auto;
     }
 }

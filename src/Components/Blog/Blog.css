@@ -1,5 +1,5 @@
 .blog-bg-image img {
-    width: 100%;
+    width: 100%;    
 }
 
 .blog-information {
@@ -25,5 +25,10 @@
 @media (max-width:991px) {
     .blog-information {
         padding: 100px 0px 0px;
+    }
+}
+@media (max-width:576px) {
+    .blog-bg-image img {
+        margin-top: 100px;
     }
 }

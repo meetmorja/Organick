@@ -30,7 +30,6 @@ const ShopSingle = () => {
 
 
   let {id} = useParams()
-  console.log(id, "========>");
 
 
   const handleClick = () => {
