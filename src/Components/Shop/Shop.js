@@ -19,9 +19,9 @@ const Shop = () => {
     scrollTop();
   }, []);
 
-  const handleNavigation = (item) => {
+  const handleNavigation = (item, index) => {
     localStorage.setItem("shop", JSON.stringify(item));
-    navigate("/shopSingle"); 
+    navigate(`/shopSingle/${index + 1}`);
   };
 
   const filteredProducts = shop_card.filter((product) =>
@@ -43,7 +43,7 @@ const Shop = () => {
             {(searchQuery ? filteredProducts : shop_card).map((item, index) => (
               <div
                 className="col-lg-3 col-md-6 mb-5 position-relative add-hover"
-                onClick={() => handleNavigation(item)}
+                onClick={() => handleNavigation(item, index)}
                 key={index}
               >
                 <Category product={item} />

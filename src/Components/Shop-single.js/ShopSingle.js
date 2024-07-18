@@ -7,7 +7,7 @@ import { GoArrowRight } from 'react-icons/go';
 import { shop_single_card } from '../Data/Data';
 import Category from '../Category/Category';
 import Sub from '../Subscibe/Sub';
-import { Link } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import { Contextex } from '../Context/Contex';
 
 const ShopSingle = () => {
@@ -27,6 +27,10 @@ const ShopSingle = () => {
     setShop(shop);
     scrollTop();
   }, [])
+
+
+  let {id} = useParams()
+  console.log(id, "========>");
 
 
   const handleClick = () => {

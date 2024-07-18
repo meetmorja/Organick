@@ -1,23 +1,26 @@
 import React, { useContext, useEffect, useState } from "react";
 import logo from "../Image/Logo.png";
 import { CiSearch } from "react-icons/ci";
-import { IoCartOutline } from "react-icons/io5";
+import { IoCartOutline, IoIosArrowDown } from "react-icons/io5";
 import { header } from "../Data/Data";
 import { Link } from "react-router-dom";
 import { Contextex } from "../Context/Contex";
-import "./Header.css"
+import "./Header.css";
 
 const Header = () => {
   const { cart } = useContext(Contextex);
-  const { setSearchQuery } = useContext(Contextex)
-  const [visible, setVisible] = useState(false)
+  const { setSearchQuery } = useContext(Contextex);
+  const [visible, setVisible] = useState(false);
+  const [activeMenu, setActiveMenu] = useState(null); // Track active submenu
 
   const scrollTop = () => {
     window.scrollTo(0, 0);
   };
+
   useEffect(() => {
     scrollTop();
   }, []);
+
   const handleSearchChange = (e) => {
     setSearchQuery(e.target.value);
   };
@@ -25,8 +28,20 @@ const Header = () => {
   const handleSearchSubmit = (e) => {
     e.preventDefault();
   };
+
   const toggleSearch = () => {
     setVisible(!visible);
+  };
+
+  const handleNavLinkClick = () => {
+    const navbarCollapse = document.getElementById("navbarSupportedContent");
+    if (navbarCollapse.classList.contains("show")) {
+      navbarCollapse.classList.remove("show");
+    }
+  };
+
+  const toggleSubMenu = (index) => {
+    setActiveMenu(activeMenu === index ? null : index);
   };
 
   return (
@@ -55,34 +70,54 @@ const Header = () => {
             >
               <ul className="navbar-nav m-auto mb-3 peta-menu-start">
                 {header.map((item, index) => (
-                  <li key={index} className="nav-item mt-3 position-relative header_menu">
+                  <li
+                    key={index}
+                    className="nav-item mt-3 position-relative header_menu"
+                  >
                     <Link
                       className="nav-link fw-bold option"
                       aria-current="page"
                       to={item.link}
+                      onClick={!item.icon ? handleNavLinkClick : undefined}
                     >
                       {item.sub_menu}
-                      {item.icon}
-                      <ul className="position-absolute menu-item p-0">
-                        {item?.peta_menu?.map((items, idx) => (
-                          <li key={idx} className="nav-item position-relative text-center d-none sub-hover header_sub_menu">
+                      {item.icon && (
+                        <span
+                          onClick={() => toggleSubMenu(index)}
+                          style={{ cursor: "pointer" }}
+                        >
+                          {item.icon}
+                        </span>
+                      )}
+                    </Link>
+                    {item.peta_menu && (
+                      <ul
+                        className={`position-absolute menu-item p-0 ${activeMenu === index ? "d-block" : "d-none"
+                          }`}
+                      >
+                        {item.peta_menu.map((subItem, subIndex) => (
+                          <li
+                            key={subIndex}
+                            className="nav-item position-relative text-center sub-hover header_sub_menu"
+                          >
                             <Link
                               className="nav-link active text-white fw-bold"
                               aria-current="page"
-                              to={items.link}
+                              to={subItem.link}
+                              onClick={handleNavLinkClick}
                             >
-                              {items.sub_menu}
+                              {subItem.sub_menu}
                             </Link>
                           </li>
                         ))}
                       </ul>
-                    </Link>
+                    )}
                   </li>
                 ))}
                 <div className="position-relative">
                   <form onSubmit={handleSearchSubmit}>
                     <input
-                      className={`rounded-pill border-0 search-filed  ms-md-0 shadow-sm bg-body-tertiary rounded ${visible ? "d-block" : "d-none"
+                      className={`rounded-pill border-0 search-filed ms-md-0 shadow-sm bg-body-tertiary rounded ${visible ? "d-block" : "d-none"
                         }`}
                       type="text"
                       onChange={handleSearchChange}
@@ -94,10 +129,9 @@ const Header = () => {
                     >
                       <CiSearch onClick={(e) => handleSearchSubmit(e)} />
                     </div>
-
                   </form>
                 </div>
-                <Link to={"/cart"}>
+                <Link to={"/cart"} onClick={handleNavLinkClick}>
                   <div className="carts-field d-flex gap-3 align-items-center">
                     <div className="cart-icon text-white d-flex align-items-center justify-content-center align-items-center">
                       <IoCartOutline />

@@ -463,7 +463,6 @@
 
 @media (max-width:765px) {
     .bg-image {
-        background-image: none;
         height: 100%;
     }
 
